@@ -1,0 +1,10 @@
+name: Banners
+form: $/shohabbos/banner/models/banner/fields.yaml
+modelClass: Shohabbos\Banner\Models\Banner
+defaultRedirect: shohabbos/banner/banners
+create:
+    redirect: 'shohabbos/banner/banners/update/:id'
+    redirectClose: shohabbos/banner/banners
+update:
+    redirect: shohabbos/banner/banners
+    redirectClose: shohabbos/banner/banners

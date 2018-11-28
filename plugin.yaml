@@ -1,0 +1,31 @@
+plugin:
+    name: 'shohabbos.banner::lang.plugin.name'
+    description: 'shohabbos.banner::lang.plugin.description'
+    author: Shohabbos
+    icon: oc-icon-image
+    homepage: ''
+permissions:
+    manage_places:
+        tab: 'shohabbos.banner::lang.plugin.name'
+        label: 'Manage places'
+    manage_banners:
+        tab: 'shohabbos.banner::lang.plugin.name'
+        label: 'Manage banners'
+navigation:
+    banner-main:
+        label: Banners
+        url: shohabbos/banner/banners
+        icon: icon-life-ring
+        sideMenu:
+            banner-banners:
+                label: Banners
+                url: /
+                icon: icon-table
+                permissions:
+                    - manage_banners
+            banner-places:
+                label: Places
+                url: shohabbos/banner/places
+                icon: icon-th-large
+                permissions:
+                    - manage_places

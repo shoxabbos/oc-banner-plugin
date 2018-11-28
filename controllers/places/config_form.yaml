@@ -1,0 +1,10 @@
+name: Places
+form: $/shohabbos/banner/models/place/fields.yaml
+modelClass: Shohabbos\Banner\Models\Place
+defaultRedirect: shohabbos/banner/places
+create:
+    redirect: 'shohabbos/banner/places/update/:id'
+    redirectClose: shohabbos/banner/places
+update:
+    redirect: shohabbos/banner/places
+    redirectClose: shohabbos/banner/places
