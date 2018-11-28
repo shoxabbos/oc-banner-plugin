@@ -4,9 +4,17 @@ fields:
         span: auto
         required: 1
         type: text
-    desc:
-        label: Desc
-        size: small
-        span: auto
-        required: 1
-        type: textarea
+tabs:
+    fields:
+        desc:
+            label: Desc
+            size: small
+            span: auto
+            required: 0
+            type: textarea
+            tab: 'Tab 1'
+        banners:
+            span: full
+            path: field_banners
+            type: partial
+            tab: 'Tab 2'

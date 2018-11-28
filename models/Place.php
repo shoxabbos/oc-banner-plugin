@@ -20,4 +20,9 @@ class Place extends Model
      */
     public $rules = [
     ];
+
+    public $belongsToMany = [
+        'banners' => [Banner::class, 'table' => 'shohabbos_banner_place_banner']
+    ];
+
 }

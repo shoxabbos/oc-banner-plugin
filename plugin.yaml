@@ -19,7 +19,7 @@ navigation:
         sideMenu:
             banner-banners:
                 label: Banners
-                url: /
+                url: shohabbos/banner/banners
                 icon: icon-table
                 permissions:
                     - manage_banners

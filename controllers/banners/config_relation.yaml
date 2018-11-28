@@ -1,0 +1,13 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+places:
+    label: Place
+    view:
+        list: $/shohabbos/banner/models/place/columns.yaml
+        toolbarButtons: link|unlink
+    manage:
+        form: $/shohabbos/banner/models/place/fields.yaml
+        recordsPerPage: 10
+        showSearch: true

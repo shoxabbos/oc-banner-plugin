@@ -1,0 +1,13 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+banners:
+    label: Property
+    view:
+        list: $/shohabbos/banner/models/banner/columns.yaml
+        toolbarButtons: link|unlink
+    manage:
+        form: $/shohabbos/banner/models/banner/fields.yaml
+        recordsPerPage: 10
+        showSearch: true
