@@ -25,4 +25,15 @@ class Place extends Model
         'banners' => [Banner::class, 'table' => 'shohabbos_banner_place_banner']
     ];
 
+
+    public function loadBanner() {
+        $banner = $this->banners()->inRandomOrder()->first();
+
+        if ($banner) {
+            $banner->increment('views');
+        }
+
+        return $banner;
+    }
+
 }

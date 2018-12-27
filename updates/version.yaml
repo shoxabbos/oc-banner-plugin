@@ -15,3 +15,6 @@
 1.0.6:
     - 'Updated table shohabbos_banner_places'
     - builder_table_update_shohabbos_banner_places_2.php
+1.0.7:
+    - 'Updated table shohabbos_banner_banners'
+    - builder_table_update_shohabbos_banner_banners.php

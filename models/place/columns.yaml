@@ -14,3 +14,11 @@ columns:
     updated_at:
         label: updated_at
         type: datetime
+    views:
+        label: views
+        type: number
+        invisible: true
+    transitions:
+        label: transitions
+        type: number
+        invisible: true

@@ -15,7 +15,7 @@ navigation:
     banner-main:
         label: Banners
         url: shohabbos/banner/banners
-        icon: icon-life-ring
+        icon: oc-icon-image
         sideMenu:
             banner-banners:
                 label: Banners

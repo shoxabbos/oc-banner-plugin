@@ -1,0 +1,7 @@
+{% if banner %}
+<a href="{{banner.link}}" target="_blank">
+    <img src="{{ banner.image.path|resize(300) }}" style="width:100%" alt="">
+</a>
+{% else %}
+	<p class="text-center"> {{noBannerMessage}} </p>
+{% endif %}
